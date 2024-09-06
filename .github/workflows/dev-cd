@@ -1,7 +1,7 @@
-name: prod-CD
+name: develop-CD
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "develop" ]
 
 jobs:
   test:
